@@ -1,0 +1,16 @@
+Architecture
+
+| Parameter | Value |
+|---|---|
+| Vocabulary | 16,000 tokens |
+| Tokenizer | Byte Pair Encoding, implemented manually |
+| Hidden dimension | 256 |
+| Encoder layers | 4 |
+| Attention heads | 4 |
+| FFN hidden dimension | 1,024 |
+| Maximum sequence length | 128 |
+| Positional encoding | Learned |
+| Normalization | LayerNorm |
+| Pretraining | Masked language modeling |
+| Fine-tuning | Contrastive learning |
+| Output dimension | 256 |
